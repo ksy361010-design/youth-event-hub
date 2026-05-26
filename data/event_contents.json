@@ -1,0 +1,45 @@
+{
+  "project": "YOUTH-EVENT-HUB",
+  "version": "1.0.0",
+  "last_updated": "2026-05-26",
+  "balance_games": [
+    {
+      "id": "BG001",
+      "topic_ko": "높은 연봉과 야근 vs 낮은 연봉과 워라밸",
+      "topic_en": "High salary with overtime vs Low salary with work-life balance",
+      "category": "career"
+    },
+    {
+      "id": "BG002",
+      "topic_ko": "소규모 친밀한 커뮤니티 vs 대규모 활발한 커뮤니티",
+      "topic_en": "Small close-knit community vs Large active community",
+      "category": "community"
+    },
+    {
+      "id": "BG003",
+      "topic_ko": "하고 싶은 일(열정페이) vs 안정적인 일(적성 보통)",
+      "topic_en": "Passion job with low pay vs Stable job with average interest",
+      "category": "career"
+    }
+  ],
+  "icebreakers": [
+    {
+      "id": "IB001",
+      "question_ko": "오늘날 청년들이 겪는 가장 큰 고민은 무엇일까요?",
+      "question_en": "What is the biggest concern for young people today?",
+      "category": "wellness"
+    },
+    {
+      "id": "IB002",
+      "question_ko": "사람들이 사회적으로 단절되었다고 느끼는 주된 원인은 무엇일까요?",
+      "question_en": "What makes people feel socially disconnected?",
+      "category": "connection"
+    },
+    {
+      "id": "IB003",
+      "question_ko": "대학생들이 실제로 원하는 커뮤니티는 어떤 모습인가요?",
+      "question_en": "What kind of community do students actually want?",
+      "category": "community"
+    }
+  ]
+}
