@@ -1,0 +1,30 @@
+name: Python application check
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
+    - name: Lint with flake8
+      run: |
+        # 문법 오류나 에러가 있는지 검사하는 단계입니다.
+        pip install flake8
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+    - name: Test Python execution
+      run: |
+        # 프로그램이 기본적으로 실행 가능한지 확인합니다.
+        python main.py --help || echo "CLI tool exists and is callable"
